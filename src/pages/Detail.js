@@ -56,6 +56,8 @@ const Detail = ({ setActive }) => {
     setActive(null);
   };
 
+  console.log("777777777777", blogs?.imgUrl);
+
   return (
     <div className="single">
       <div
